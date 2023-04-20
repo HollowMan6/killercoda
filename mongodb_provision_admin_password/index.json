@@ -1,0 +1,29 @@
+{
+  "title": "MongoDB provision secret admin password",
+  "description": "This tutorial tells you how to provision a secret administration password to MongoDB",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Provision the secret admin password",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Enable authentication and try it out",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Verify everything works",
+        "text": "step3/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
