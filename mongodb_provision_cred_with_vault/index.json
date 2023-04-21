@@ -1,0 +1,29 @@
+{
+  "title": "MongoDB provision MongoDB credentials using HashiCorp Vault",
+  "description": "This tutorial tells you how to provision MongoDB credentials using HashiCorp Vault",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Setup MongoDB to be ready for HashiCorp Vault",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Setup HashiCorp Vault Database Secrets Engine for MongoDB",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Verify everything works by login using HashiCorp Vault Secrets",
+        "text": "step3/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
